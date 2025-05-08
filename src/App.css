@@ -1,0 +1,135 @@
+
+/* Base styles */
+body {
+  overflow-x: hidden;
+  font-family: 'Work Sans', sans-serif;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* Consultancy report style */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Exo 2', serif;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.report-title {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+}
+
+.report-container {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.report-divider {
+  width: 4rem;
+  height: 1px;
+  background-color: #333;
+  margin: 1rem auto;
+}
+
+.report-section {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Animation classes */
+.animate-pulse-slow {
+  animation: pulse 3s infinite ease-in-out;
+}
+
+/* Utility classes */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Animation keyframes */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Font-specific adjustments */
+.font-serif {
+  font-family: 'Space Grotesk', Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Subtle transitions */
+.subtle-transition {
+  transition: all 0.3s ease;
+}
+
+/* Letter spacing for headings */
+.letter-spacing-wide {
+  letter-spacing: 0.05em;
+}
+
+/* Simple button style */
+.btn-report {
+  background-color: transparent;
+  border: 1px solid #333;
+  color: #333;
+  padding: 0.75rem 1.5rem;
+  font-family: Georgia, serif;
+  transition: all 0.2s ease;
+}
+
+.btn-report:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Card overrides */
+.card {
+  border-radius: 0;
+  border-color: #eaeaea;
+}
+
+/* Button overrides */
+.button {
+  border-radius: 0;
+  font-family: Georgia, serif;
+}
+
+/* Input overrides */
+.input {
+  border-radius: 0;
+  border-color: #eaeaea;
+}
